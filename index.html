@@ -10,9 +10,9 @@
     <base>
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
-    <link rel="apple-touch-icon" sizes="180x180" href="../msar.net/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../msar.net/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../msar.net/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="msar.net/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="msar.net/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="msar.net/favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
     <link rel="stylesheet" id="google-fonts-1-css" type="text/css" media="all"
@@ -31,9 +31,8 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link href="sb/csslibs.css.css" rel="stylesheet" />
-    <link href="sb/cssmain.css.css" no-cdn="" rel="stylesheet" />
-    <link href="sb/style.css" rel="stylesheet" />
+    <link href="msarweb.com/sb/csslibs.css.css" rel="stylesheet" />
+    <link href="msarweb.com/sb/cssmain.css.css" no-cdn="" rel="stylesheet" />
 
 
 
@@ -60,7 +59,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" id="main-logo" href="index.html">
-                <img src="../msar.net/img/inssio_logo.png" alt="logo">
+                <img src="msar.net/img/inssio_logo.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -70,10 +69,10 @@
             <div class="collapse navbar-collapse nav-links" id="navbarSupportedContent">
                 <ul class="nav navbar-nav ml-auto">
 
-                    <li class="nav-item"><a class="nav-link text-light" href="../msarweb.com/index.html">Home</a>
+                    <li class="nav-item"><a class="nav-link text-light" href="index.html">Home</a>
                     </li>
 
-                    <li class="nav-item "><a class="nav-link text-light" href="../msarweb.com/Projects/index.html">Our Projects</a>
+                    <li class="nav-item "><a class="nav-link text-light" href="msarweb.com/Projects/index.html">Our Projects</a>
                     </li>
 
                     <li class="nav-item">
@@ -81,28 +80,28 @@
                             <span class="caret"></span></span>
                         <ul class="dropdown-menu">
                             <li class="nav-item"><a class="nav-link text-light sub-nav-item"
-                                    href="../msarweb.com/services/mobile-development/index.html">Mobile Development</a>
+                                    href="msarweb.com/services/mobile-development/index.html">Mobile Development</a>
                             </li>
                             <li class="nav-item"><a class="nav-link text-light sub-nav-item"
-                                    href="../msarweb.com/services/web-development/index.html">Web Development</a></li>
+                                    href="msarweb.com/services/web-development/index.html">Web Development</a></li>
                             <li class="nav-item"><a class="nav-link text-light sub-nav-item"
-                                    href="../msarweb.com/services/cloud-computing/index.html">Website hosting</a></li>
+                                    href="msarweb.com/services/cloud-computing/index.html">Website hosting</a></li>
                             <li class="nav-item"><a class="nav-link text-light sub-nav-item"
-                                    href="../msarweb.com/services/devops/index.html">DevOps</a></li>
+                                    href="msarweb.com/services/devops/index.html">DevOps</a></li>
                             <li class="nav-item"><a class="nav-link text-light sub-nav-item"
-                                    href="../msarweb.com/services/uiux-design/index.html">UI/UX Design</a></li>
+                                    href="msarweb.com/services/uiux-design/index.html">UI/UX Design</a></li>
                             <li class="nav-item"><a class="nav-link text-light sub-nav-item"
-                                    href="../msarweb.com/services/Technical-support/index.html">Technical support</a>
+                                    href="msarweb.com/services/Technical-support/index.html">Technical support</a>
                             </li>
                             <li class="nav-item"><a class="nav-link text-light sub-nav-item"
-                                    href="../msarweb.com/services/E-Marketing/index.html">E-Marketing</a></li>
+                                    href="msarweb.com/services/E-Marketing/index.html">E-Marketing</a></li>
                             <li class="nav-item"><a class="nav-link text-light sub-nav-item"
-                                    href="../msarweb.com/services/no-code-development/index.html">No-code
+                                    href="msarweb.com/services/no-code-development/index.html">No-code
                                     Development</a></li>
                         </ul>
                     </li>
 
-                    <li class="nav-item "><a class="nav-link text-light" href="../msarweb.com/blog/index.html">Blog</a></li>
+                    <li class="nav-item "><a class="nav-link text-light" href="msarweb.com/blog/index.html">Blog</a></li>
                 </ul>
             </div>
             <a href="#contact-form" class="contact-us contact-us-btn">CONTACT US</a>
@@ -140,6 +139,16 @@
         </div>
     </div>
 
+    <script>
+        let navbar = document.querySelector('.navbar');
+        window.onscroll = function(){
+            if(window.scrollY > 200){
+                navbar.classList.add('activeNav');
+            }else{
+                navbar.classList.remove('activeNav');           
+            }
+        }
+    </script>
 
     <div class="our-services">
 
@@ -156,7 +165,7 @@
                 <a class="service img-box" href="services/web-development/index.html">
                     <div class="img-container img-container-web-development">
                         <h3>Web Development</h3>
-                        <img class="img-box-image" src="../msar.net/img/our-services/web.png" alt="web-development" />
+                        <img class="img-box-image" src="msar.net/img/our-services/web.png" alt="web-development" />
                         <div class="img-box-content">
                             Our expert team can create stunning websites, web applications, and e-commerce solutions
                             that are optimized for user experience and performance.
@@ -167,7 +176,7 @@
                 <a class="service img-box" href="services/mobile-development/index.html">
                     <div class="img-container img-container-mobile-development">
                         <h3>Mobile Development</h3>
-                        <img class="img-box-image" src="../msar.net/img/our-services/mobile.png"
+                        <img class="img-box-image" src="msar.net/img/our-services/mobile.png"
                             alt="mobile-development" />
                         <div class="img-box-content">
                             Create powerful mobile applications for exceptional user experiences on iOS and Android
@@ -179,7 +188,7 @@
                 <a class="service img-box" href="services/cloud-computing/index.html">
                     <div class="img-container img-container-first">
                         <h3>Website hosting</h3>
-                        <img class="img-box-image" src="../msar.net/img/our-services/cloud.png" alt="cloud-computing" />
+                        <img class="img-box-image" src="msar.net/img/our-services/cloud.png" alt="cloud-computing" />
                         <div class="img-box-content">
                             When you get hosting, you rent space on a server that stores all the files and data for your
                             website to function properly. We offer you the best provider for your web project
@@ -191,7 +200,7 @@
                 <a class="service img-box" href="services/uiux-design/index.html">
                     <div class="img-container img-container-devops">
                         <h3>Designs</h3>
-                        <img class="img-box-image" src="../msar.net/img/our-services/devops.png" alt="ui-ux-design" />
+                        <img class="img-box-image" src="msar.net/img/our-services/devops.png" alt="ui-ux-design" />
                         <div class="img-box-content">
                             Whether you're looking for a distinctive new logo or some cool designs, there's no limit to
                             what you can design in a MsarWeb. We provide you with the best designs through a selection
@@ -203,7 +212,7 @@
                 <a class="service img-box" href="services/E-Marketing/index.html">
                     <div class="img-container img-container-fourth">
                         <h3>E-Marketing</h3>
-                        <img class="img-box-image" src="../msar.net/img/our-services/integrations.png"
+                        <img class="img-box-image" src="msar.net/img/our-services/integrations.png"
                             alt="E-Marketing" />
                         <div class="img-box-content">
                             The possibilities for communicating on the web are limitless, but an Internet connection is
@@ -216,7 +225,7 @@
                 <a class="service img-box" href="services/no-code-development/index.html">
                     <div class="img-container img-container-first">
                         <h3>SEO Optimization</h3>
-                        <img class="img-box-image" src="../msar.net/img/our-services/nocode.png"
+                        <img class="img-box-image" src="msar.net/img/our-services/nocode.png"
                             alt="nocode-development" />
                         <div class="img-box-content">
                             Think about your potential customers and the keywords they use to search on Google. We
@@ -229,7 +238,7 @@
                 <a class="service img-box" href="services/uiux-design/index.html">
                     <div class="img-container">
                         <h3>UI/UX Design</h3>
-                        <img class="img-box-image" src="../msar.net/img/our-services/uiux.png" alt="ui-ux-design" />
+                        <img class="img-box-image" src="msar.net/img/our-services/uiux.png" alt="ui-ux-design" />
                         <div class="img-box-content">
                             Our UI/UX design services ensure that your software or application is intuitive,
                             user-friendly, and visually appealing, helping you to stand out from the competition.
@@ -240,7 +249,7 @@
                 <a class="service img-box" href="services/Technical-support/index.html">
                     <div class="img-container img-container-first">
                         <h3>Technical support</h3>
-                        <img class="img-box-image" src="../msar.net/img/our-services/testing.png" alt="testing" />
+                        <img class="img-box-image" src="msar.net/img/our-services/testing.png" alt="testing" />
                         <div class="img-box-content">
                             We care about helping, managing and maintaining your site to avoid any technical problem and
                             achieve the best performance. So, if you are looking for experts to manage your website, you
@@ -272,28 +281,28 @@
 
             <div class="partner-slides slider owl-carousel owl-theme">
                 <div class="text-center item-slide">
-                    <img src="../msar.net/img/tech-stack/abo-alsouod-210x210.jpg" alt="xamarin_img" title="Xamarin">
+                    <img src="msar.net/img/tech-stack/abo-alsouod-210x210.jpg" alt="xamarin_img" title="Xamarin">
                 </div>
                 <div class="text-center item-slide">
-                    <img src="../msar.net/img/tech-stack/dream-touch-210x210.jpg" alt="azure_img" title="Azure">
+                    <img src="msar.net/img/tech-stack/dream-touch-210x210.jpg" alt="azure_img" title="Azure">
                 </div>
                 <div class="text-center item-slide">
-                    <img src="../msar.net/img/tech-stack/final-logo-210x210.png" alt="aws_img" title="AWS">
+                    <img src="msar.net/img/tech-stack/final-logo-210x210.png" alt="aws_img" title="AWS">
                 </div>
                 <div class="text-center item-slide">
-                    <img src="../msar.net/img/tech-stack/la-routanda-210x210.png" alt="redis_img" title="Redis">
+                    <img src="msar.net/img/tech-stack/la-routanda-210x210.png" alt="redis_img" title="Redis">
                 </div>
                 <div class="text-center item-slide">
-                    <img src="../msar.net/img/tech-stack/profil-210x210.png" alt="docker_img" title="Docker">
+                    <img src="msar.net/img/tech-stack/profil-210x210.png" alt="docker_img" title="Docker">
                 </div>
                 <div class="text-center item-slide">
-                    <img src="../msar.net/img/tech-stack/swol.png" alt="dotnet_img" title=".NET">
+                    <img src="msar.net/img/tech-stack/swol.png" alt="dotnet_img" title=".NET">
                 </div>
                 <div class="text-center item-slide">
-                    <img src="../msar.net/img/tech-stack/Untitled-1-1-210x210.png" alt="angular_img" title="Angular">
+                    <img src="msar.net/img/tech-stack/Untitled-1-1-210x210.png" alt="angular_img" title="Angular">
                 </div>
                 <div class="text-center item-slide">
-                    <img src="../msar.net/img/tech-stack/Untitled-11-210x210.png" alt="react_img" title="React">
+                    <img src="msar.net/img/tech-stack/Untitled-11-210x210.png" alt="react_img" title="React">
                 </div>
             </div>
         </div>
@@ -328,39 +337,39 @@
         <div class="projects">
             <div class="project">
                 <p>Title</p>
-                <img src="../msar.net/favicon-32x32.png">
+                <img src="msar.net/favicon-32x32.png">
             </div>
             <div class="project">
                 <p>Title</p>
-                <img src="../msar.net/favicon-32x32.png">
+                <img src="msar.net/favicon-32x32.png">
             </div>
             <div class="project">
                 <p>Title</p>
-                <img src="../msar.net/favicon-32x32.png">
+                <img src="msar.net/favicon-32x32.png">
             </div>
             <div class="project">
                 <p>Title</p>
-                <img src="../msar.net/favicon-32x32.png">
+                <img src="msar.net/favicon-32x32.png">
             </div>
             <div class="project">
                 <p>Title</p>
-                <img src="../msar.net/favicon-32x32.png">
+                <img src="msar.net/favicon-32x32.png">
             </div>
             <div class="project">
                 <p>Title</p>
-                <img src="../msar.net/favicon-32x32.png">
+                <img src="msar.net/favicon-32x32.png">
             </div>
             <div class="project">
                 <p>Title</p>
-                <img src="../msar.net/favicon-32x32.png">
+                <img src="msar.net/favicon-32x32.png">
             </div>
             <div class="project">
                 <p>Title</p>
-                <img src="../msar.net/favicon-32x32.png">
+                <img src="msar.net/favicon-32x32.png">
             </div>
             <div class="project">
                 <p>Title</p>
-                <img src="../msar.net/favicon-32x32.png">
+                <img src="msar.net/favicon-32x32.png">
             </div>
         </div>
 
@@ -386,7 +395,7 @@
         <div class="news-container container">
             <div class="news-row1">
                 <div class="news">
-                    <img src="../msar.net/news.png">
+                    <img src="msar.net/news.png">
                     <div class="news-content">
                         <div>
                             <div class="sub-info">25 January,2023 | Eman | Electronic shopping</div>
@@ -402,7 +411,7 @@
                     </div>
                 </div>
                 <div class="news">
-                    <img src="../msar.net/news.png">
+                    <img src="msar.net/news.png">
                     <div class="news-content">
                         <div>
                             <div class="sub-info">25 January,2023 | Eman | Electronic shopping</div>
@@ -420,7 +429,7 @@
             </div>
             <div class="news-row2">
                 <div class="news">
-                    <img src="../msar.net/news.png">
+                    <img src="msar.net/news.png">
                     <div class="news-content">
                         <div>
                             <div class="sub-info">25 January,2023 | Eman | Electronic shopping</div>
@@ -436,7 +445,7 @@
                     </div>
                 </div>
                 <div class="news">
-                    <img src="../msar.net/news.png">
+                    <img src="msar.net/news.png">
                     <div class="news-content">
                         <div>
                             <div class="sub-info">25 January,2023 | Eman | Electronic shopping</div>
@@ -454,7 +463,7 @@
             </div>
             <div class="news-row3">
                 <div class="news" style="height: 400px;">
-                    <img src="../msar.net/news.png">
+                    <img src="msar.net/news.png">
                     <div class="news-content">
                         <div>
                             <div class="sub-info">25 January,2023 | Eman | Electronic shopping</div>
@@ -470,7 +479,7 @@
                     </div>
                 </div>
                 <div class="news">
-                    <img src="../msar.net/news.png">
+                    <img src="msar.net/news.png">
                     <div class="news-content">
                         <div>
                             <div class="sub-info">25 January,2023 | Eman | Electronic shopping</div>
@@ -486,7 +495,7 @@
                     </div>
                 </div>
                 <div class="news">
-                    <img src="../msar.net/news.png">
+                    <img src="msar.net/news.png">
                     <div class="news-content">
                         <div>
                             <div class="sub-info">25 January,2023 | Eman | Electronic shopping</div>
@@ -618,7 +627,7 @@
     <div class="footer-cont">
         <div class="">
             <div class="footer-logo">
-                <img src="../msar.net/msar.png">
+                <img src="msar.net/msar.png">
             </div>
             <div class="footer-address d-flex">
                 <i class="fa-regular fa-map"></i>
